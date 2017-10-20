@@ -3,12 +3,10 @@ This page lists the chargeback cost for draco container services related resourc
 
 # Chargeback for a container cluster
 Here is a list of the key components of a container cluster that include chargeback:
+* Fixed cost: 
 * Worker node
 * VLANs
-* Public Portable Subnet: The IPs are used to apps or services deployed to the K8S cluster.
-* Dedicated Hardware Firewall:  The firewall is required for each Public VLAN used by a container cluster.
-* File Storage:
-* Object storage: 
+* Public Portable Subnet
 
 For example:
 * Research customer requires container cluster for Cloud project with ability to scale between 2-10 worker nodes.
@@ -17,10 +15,11 @@ For example:
   * Public Portable Subnet
   * Dedicated Hardware Firewall for VLAN
   * File storage for container cluster
-  * Optional:  Object storage 
 * Variable cost:
   * Worker nodes (3-10)
-
+* Optional:
+  * Object storage
+  * File storage
 
 
 ### Worker node
@@ -48,7 +47,15 @@ The portable public subnet IPs are used by apps or services deployed to the K8S 
 
 
 
+### Dedicated Hardware Firewall
+The firewall is required for each Public VLAN used by a container cluster.
 
+
+
+### Object Storage
+
+
+### File Storage 
 
 
 
