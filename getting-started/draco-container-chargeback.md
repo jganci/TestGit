@@ -1,5 +1,5 @@
 # Chargeback for RIS managed IBM Container Service
-This document outlines the chargeback cost for the project "draco" RIS managed IBM Container Service.  The costs listed below are discounted from what is displayed in Bluemix directly.
+This document outlines the chargeback cost for the project "draco" RIS managed IBM Container Service.  The costs listed below are discounted from what is displayed in IBM Bluemix.
 
 There are two fundamental approaches for allocation of resource and chargeback:
 * Shared container cluster
