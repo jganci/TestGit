@@ -3,7 +3,7 @@ This document outlines the chargeback cost for draco container services managed 
 
 There are two fundamental approaches for allocation of resource and chargeback:
 * Shared container cluster
-  * In this scenario, research customers request access to a shared container cluster with their own namespace and resource quota. The chargeback is done at the resource quata level for a given namespace.  Additional services such as object storage will be charge accordingly.  This is the preferred environment for most research customers seeking to deploy applications and services.  
+  * In this scenario, research customers request access to a shared container cluster with their own namespace and resource quota. The chargeback is done at the resource quota level for a given namespace.  Additional services such as object storage will be charge accordingly.  This is the preferred environment for most research customers seeking to deploy applications and services.  
 * Dedicated container cluster
   * In this scenario, research customers require their own container cluster for Cloud related research. The chargeback for this model includes all components of the containter cluster (ie. vlans, subnet, firewall, storage, workers).
 
@@ -39,10 +39,10 @@ The key attributes that determine the cost of a K8S worker node in Bluemix are t
 | Cost / mon:  | $244.68          | $391.48           | $978.70             | $1669.91           | $2709.79            |
 
 
-### VLAN
+### VLANs
 A container cluster includes a public and private VLAN consisting of a primary subnet of 16 IPs or 32 IPs for each VLAN.  The IPs of the primary subnet are managed by Bluemix and assigned to the K8S worker nodes at time of provisioning.
 
-* VLAN Cost = $25 
+* VLAN Cost = $25 / mon
 * Option of VLAN with 16 (13 usable) or 32 (29 usable) IP primary subnets
 
 ### Portable Public Subnet
@@ -75,7 +75,9 @@ Object storage is optional to a container cluster and based on need of research 
 
 
 ### File Storage 
-There are 3 types of File storage in Bluemix including: Endurance, Performance and NAS/FTP.  Each has many possible values for sizes ranging from 20 GB - 12 TB.  For simplicity we have listed some common sizes as reference.  Research customers can request each of the types of storage within the defined ranges via a Maximo ticket for cost estimate.
+There are 3 types of File storage in Bluemix including: Endurance, Performance and NAS/FTP.  Each has many possible values for sizes ranging from 20 GB - 12 TB (varies based on IOPS selected).  For simplicity we have listed some common sizes as reference.  Research customers can request each of the types of storage within the defined ranges via a Maximo ticket for cost estimate.
+
+
 
 
 
