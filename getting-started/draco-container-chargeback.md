@@ -20,8 +20,7 @@ For example:
 * Fixed cost: 
   * VLANs - public and private
   * Public Portable Subnet 
-  * Dedicated Hardware Firewall for public VLAN
-  * File storage for container cluster
+  * Dedicated Hardware Firewall for public VLAN  
 * Variable cost:
   * Worker nodes (2-10)
 * Optional:
