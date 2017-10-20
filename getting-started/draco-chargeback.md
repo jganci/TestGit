@@ -13,7 +13,7 @@ Here is a list of the key components of a container cluster that include chargeb
 ## Worker node
 The key attributes that determine the cost of a K8S worker node in bluemix are the machine type (CPU, RAM), and quantity of workers.  Bluemix offers ability to deployed shared workers, however the RIS DevOps team only uses dedicated worker nodes.
 
-| Machine Type | 2 CPU & 4 GB RAM | 4 CPU / 16 GB RAM | 32 CPU / 128 GB RAM | 56 CPU / 242 GB RAM |
+| Machine Type:| 2 CPU & 4 GB RAM | 4 CPU / 16 GB RAM | 32 CPU / 128 GB RAM | 56 CPU / 242 GB RAM |
 |--------------| ----------------:|------------------:|--------------------:|--------------------:|
 | Cost / hr:   | $0.34             | $0.54            | $1.34               | $3.71               |
 
