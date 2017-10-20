@@ -79,10 +79,19 @@ There are 3 types of File storage in Bluemix including: Endurance, Performance a
 * Performance: Includes selecting storage GB size in (ie. 100, 500, 1000, 2000, 5000) + entering IOPS value (100 - 6000) for DAL12.
 * NAS: Includes only the selection of storage GB size (ie. 100, 500, 1000, 2000, 5000)
 
-
-|                         | Endurance    | Performance | NAS         |
-|-------------------------| ------------:|------------:|------------:|
-| 2 IOPS / GB - 100 GB:   | $0.34        | $0.54       | $1.34       |
+|                         | Monthly      | Monthly     | Monthly     |
+| Storage IOPS / GB Size  | Endurance    | Performance | NAS         |
+|------------------------:| ------------:|------------:|------------:|
+| 2 IOPS / GB - 100 GB:   | $12.15       |             |             |
+| 2 IOPS / GB - 1000 GB:  | $121.50      |             |             |
+| 4 IOPS / GB - 100 GB:   | $21.26       |             |             |
+| 4IOPS / GB - 1000 GB:   | $212.63      |             |             |
+| 10 IOPS / GB - 100 GB:  | $35.24       |             |             |
+| 10 IOPS / GB - 1000 GB: | $352.35      |             |             |
+| 100 IOPS - 100 GB:      |              | $10.32      |             |
+| 100 IOPS - 1000 GB:     |              | $65.01      |             |
+| 100 GB NAS:             |              |             | $20.95      |
+| 1000 GB NAS:            |              |             | $209.48     |
 
 
 
