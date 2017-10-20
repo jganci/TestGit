@@ -4,7 +4,7 @@ This page lists the chargeback cost for draco container services related resourc
 # Chargeback for a container cluster
 Here is a list of the key components of a container cluster that include chargeback:
 * Worker node
-* VLANs:  A container cluster includes a public and private VLAN consisting of a primary subnet of 16 IPs (13 usable) or 32 IPs (29 usable).  The IPs of the primary subnet are assigned by Bluemix for the K8S worker nodes.
+* VLANs
 * Public Portable Subnet: The IPs are used to apps or services deployed to the K8S cluster.
 * Dedicated Hardware Firewall:  The firewall is required for each Public VLAN used by a container cluster.
 * File Storage:
@@ -30,8 +30,12 @@ The key attributes that determine the cost of a K8S worker node in bluemix are t
 |--------------| ----------------:|------------------:|--------------------:|-------------------:|--------------------:|
 | Cost / hr:   | $0.34            | $0.54             | $1.34               | $2.29              | $3.71               |
 | Cost / day:  | $8.04            | $12.87            | $32.18              | $54.90             | $89.09              |
+| Cost / mon:  | $244.68          | $391.48           | $978.70             | $1669.91           | $2709.79            |
+
 
 ## VLAN
+A container cluster includes a public and private VLAN consisting of a primary subnet of 16 IPs (13 usable) or 32 IPs (29 usable) for each VLAN.  The IPs of the primary subnet are managed by Bluemix and assigned to the K8S worker nodes at time of provisioning.
+
 
 
 
