@@ -1,5 +1,5 @@
 # Draco Chargeback
-This document outlines the chargeback cost for draco container services managed by the RIS DevOps team.
+This document outlines the chargeback cost for draco container services managed by the RIS DevOps team.  The cost listed below for the RIS managed container services are discounted from what is displayed in Bluemix directly.
 
 There are two fundamental approaches for allocation of resource and chargeback:
 * Shared container cluster
