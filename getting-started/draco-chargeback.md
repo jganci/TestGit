@@ -57,6 +57,7 @@ The portable public subnet IPs are used by apps or services deployed to the K8S 
 ### Dedicated Hardware Firewall
 The firewall is required for each Public VLAN used by a container cluster.
 
+* Dedicated Hardware Firewall = $585 / mon
 
 
 ### Object Storage
