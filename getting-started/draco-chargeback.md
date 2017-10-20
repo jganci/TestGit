@@ -11,7 +11,7 @@ Here is a list of the key components of a container cluster that include chargeb
 * Object storage: 
 
 For example:
-* Research customer requires container cluster for Cloud project with 3-10 worker nodes.
+* Research customer requires container cluster for Cloud project with ability to scale between 2-10 worker nodes.
 * Fixed cost: 
   * VLANs
   * Public Portable Subnet
