@@ -71,7 +71,7 @@ Object storage is optional to a container cluster and based on need of research 
 | Class A operations / 1k requests:  | $0.0034     | $0.0075    | $0.0151    | $0.0061    |
 | Class B operations / 10k requests: | $0.0134     | $0.0075    | $0.0151    | $0.0061    |
 | Data Retrieval:                    | $0.0000     | $0.0061    | $0.0302    | $0.0176    |      
-| Flex Max Cap                       |            |             |            |            |      
+| Flex Max Cap                       | $0.0000     | $0.0000    | $0.0000    | $0.0176    |      
 
 
 ### File Storage 
