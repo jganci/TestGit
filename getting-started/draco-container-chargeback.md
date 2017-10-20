@@ -1,4 +1,4 @@
-# Draco Chargeback
+# Container Chargeback
 This document outlines the chargeback cost for draco container services managed by the RIS DevOps team.  The cost listed below for the RIS managed container services are discounted from what is displayed in Bluemix directly.
 
 There are two fundamental approaches for allocation of resource and chargeback:
@@ -73,14 +73,11 @@ Object storage is optional to a container cluster and based on need of research 
 | Data Retrieval:                    | $0.0000     | $0.0061    | $0.0302    | $0.0176    |      
 | Flex Max Cap                       | $0.0000     | $0.0000    | $0.0000    | $0.0176    |      
 
-
-### File Storage 
-There are 3 types of File storage in Bluemix including: Endurance, Performance and NAS/FTP.  Each has many possible values for sizes ranging from 20 GB - 12 TB (varies based on IOPS selected).  For simplicity we have listed some common sizes as reference.  Research customers can request each of the types of storage within the defined ranges via a Maximo ticket for cost estimate.
+### File Storage
+There are 3 types of File storage in Bluemix including: Endurance, Performance and NAS/FTP. Each has many possible values for sizes ranging from 20 GB - 12 TB (varies based on IOPS selected). For simplicity we have listed some common sizes as reference. Research customers can request each of the types of storage within the defined ranges via a Maximo ticket for cost estimate.
 
 * Endurance: Includes selection of 4 different IPOS / GB (ie. .25, 2, 4, 10) + selection of storage GB size (ie. 100, 500, 1000, 2000, 5000).
 * Performance: Includes selecting storage GB size in (ie. 100, 500, 1000, 2000, 5000) + entering IOPS value (100 - 6000) for DAL12.
-* NAS:  Includes only the selection of storage GB size (ie. 100, 500, 1000, 2000, 5000)
-
-
+* NAS: Includes only the selection of storage GB size (ie. 100, 500, 1000, 2000, 5000)
 
 
