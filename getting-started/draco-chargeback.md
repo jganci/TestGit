@@ -2,7 +2,7 @@
 This document outlines the chargeback cost for draco container services managed by the RIS DevOps team.
 
 There are two fundamental approaches for allocation of resource and chargeback:
-* Access to shared container cluster
+* Shared container cluster
   * In this scenario, research customers request access to a shared container cluster with their own namespace and resource quota. The chargeback is done at the resource quata level for a given namespace.  Additional services such as object storage will be charge accordingly.  This is the preferred environment for most research customers seeking to deploy applications and services.  
 * Dedicated container cluster
   * In this scenario, research customers require their own container cluster for Cloud related research. The chargeback for this model includes all components of the containter cluster (ie. vlans, subnet, firewall, storage, workers).
