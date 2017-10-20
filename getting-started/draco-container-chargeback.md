@@ -73,13 +73,14 @@ Object storage is optional to a container cluster and based on need of research 
 | Flex Max Cap                       | $0.0000     | $0.0000    | $0.0000    | $0.0176    |      
 
 ### File Storage
-There are 3 types of File storage in Bluemix including: Endurance, Performance and NAS/FTP. Each has many possible values for sizes ranging from 20 GB - 12 TB (varies based on IOPS selected). For simplicity we have listed some common sizes as reference. Research customers can request each of the types of storage within the defined ranges via a Maximo ticket for cost estimate.
+There are 3 types of File storage in Bluemix including: Endurance, Performance and NAS/FTP. Each has many possible values for sizes ranging from 20 GB - 12 TB (varies based on IOPS selected). For simplicity we have listed some common sizes as reference. 
 
 * Endurance: Includes selection of 4 different IPOS / GB (ie. .25, 2, 4, 10) + selection of storage GB size (ie. 100, 500, 1000, 2000, 5000).
 * Performance: Includes selecting storage GB size in (ie. 100, 500, 1000, 2000, 5000) + entering IOPS value (100 - 6000) for DAL12.
 * NAS: Includes only the selection of storage GB size (ie. 100, 500, 1000, 2000, 5000)
 
-|                         | Monthly      | Monthly     | Monthly     |
+The following table has sample IOPS and storage GB size for reference cost / month.  Research customers can request each of the types of storage within the defined ranges via a Maximo ticket for cost estimate.
+
 | Storage IOPS / GB Size  | Endurance    | Performance | NAS         |
 |------------------------:| ------------:|------------:|------------:|
 | 2 IOPS / GB - 100 GB:   | $12.15       |             |             |
