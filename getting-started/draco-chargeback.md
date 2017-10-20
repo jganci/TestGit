@@ -77,7 +77,9 @@ Object storage is optional to a container cluster and based on need of research 
 ### File Storage 
 There are 3 types of File storage in Bluemix including: Endurance, Performance and NAS/FTP.  Each has many possible values for sizes ranging from 20 GB - 12 TB (varies based on IOPS selected).  For simplicity we have listed some common sizes as reference.  Research customers can request each of the types of storage within the defined ranges via a Maximo ticket for cost estimate.
 
-
+* Endurance: Includes selection of 4 different IPOS / GB (ie. .25, 2, 4, 10) + selection of storage size (ie. 100, 500, 1000, 2000, 5000).
+* Performance: Includes selecting storage size in (ie. 100, 500, 1000, 2000, 5000) + entering IOPS value (100 - 48000).
+* NAS:  Includes only the selection of storage size
 
 
 
