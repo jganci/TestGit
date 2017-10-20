@@ -64,11 +64,14 @@ The firewall is required for each Public VLAN used by a container cluster.
 Object storage is optional to a container cluster and based on need of research customer apps / services use of object storage.
 
 
-|  | Standard | Vault      | Cold Vault  | Flex     |
-|------------:| ----------:|------------:|---------:|
-| Cost / hr:  | $0.34      | $0.54       | $1.34    |
-| Cost / day: | $8.04      | $12.87      | $32.18   |          
-| Cost / mon: | $244.68    | $391.48     | $978.70  |
+|                                    | Standard    | Vault      | Cold Vault | Flex       |
+|-----------------------------------:| -----------:|-----------:|-----------:|-----------:|
+| Capacity usage / GB:               | $0.0134     | $0.0073    | $0.0034    | $0.0054    |
+| Bandwidth usage / GB:              | $0.0545     | $0.0545    | $0.0545    | $0.0545    |
+| Class A operations / 1k requests:  | $0.0034     | $0.0075    | $0.0151    | $0.0061    |
+| Class B operations / 10k requests: | $0.0134     | $0.0075    | $0.0151    | $0.0061    |
+| Data Retrieval:                    | $0.0000     | $0.0061    | $0.0302    | $0.0176    |      
+| Flex Max Cap                       |            |             |            |            |      
 
 
 ### File Storage 
