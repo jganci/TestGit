@@ -1,11 +1,11 @@
-# Container Chargeback
-This document outlines the chargeback cost for draco container services managed by the RIS DevOps team.  The cost listed below for the RIS managed container services are discounted from what is displayed in Bluemix directly.
+# Chargeback for RIS managed IBM Container Service
+This document outlines the chargeback cost for the project "draco" RIS managed IBM Container Service.  The costs listed below are discounted from what is displayed in Bluemix directly.
 
 There are two fundamental approaches for allocation of resource and chargeback:
 * Shared container cluster
   * In this scenario, research customers request access to a shared container cluster with their own namespace and resource quota. The chargeback is done at the resource quota level for a given namespace.  Additional services such as object storage will be charge accordingly.  This is the preferred environment for most research customers seeking to deploy applications and services.  
 * Dedicated container cluster
-  * In this scenario, research customers require their own container cluster for Cloud related research. The chargeback for this model includes all components of the containter cluster (ie. vlans, subnet, firewall, storage, workers).
+  * In this scenario, research customers require their own container cluster for Cloud related research. The chargeback for this model includes all components of the containter cluster (ie. vlans, subnet, firewall, storage, workers).  Justification and approval is needed for this environment.
 
 
 ## Chargeback for a shared container cluster
@@ -79,5 +79,12 @@ There are 3 types of File storage in Bluemix including: Endurance, Performance a
 * Endurance: Includes selection of 4 different IPOS / GB (ie. .25, 2, 4, 10) + selection of storage GB size (ie. 100, 500, 1000, 2000, 5000).
 * Performance: Includes selecting storage GB size in (ie. 100, 500, 1000, 2000, 5000) + entering IOPS value (100 - 6000) for DAL12.
 * NAS: Includes only the selection of storage GB size (ie. 100, 500, 1000, 2000, 5000)
+
+
+|                         | Endurance    | Performance | NAS         |
+|-------------------------| ------------:|------------:|------------:|
+| 2 IOPS / GB - 100 GB:   | $0.34        | $0.54       | $1.34       |
+
+
 
 
