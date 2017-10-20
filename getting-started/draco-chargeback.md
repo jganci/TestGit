@@ -8,11 +8,11 @@ There are two fundamental approaches for allocation of resource and chargeback:
   * In this scenario, research customers require their own container cluster for Cloud related research. The chargeback for this model includes all components of the containter cluster (ie. vlans, subnet, firewall, storage, workers).
 
 
-# Chargeback for a shared container cluster
+## Chargeback for a shared container cluster
 work in progress
 
 
-# Chargeback for a dedicated container cluster
+## Chargeback for a dedicated container cluster
 Here is a list of the key components of a container cluster that include chargeback:
 * Fixed cost: 
 * Worker node
