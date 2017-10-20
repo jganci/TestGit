@@ -13,24 +13,17 @@ work in progress
 
 
 ## Chargeback for a dedicated container cluster
-Here is a list of the key components of a container cluster that include chargeback:
-* VLANS
-* Dedicated Hardware Firewall for VLAN
-* Worker node
-* VLANs
-* Public Portable Subnet
-* File storage
-* Object storage
+The chargeback for a research customer to have their own dedicated container cluster includes the cost of VLANs, Public portable subnet, dedicated hardware firewall for the public VLAN, K8S worker nodes, file storage, object storage.
 
 For example:
 * Research customer requires container cluster for Cloud project with ability to scale between 2-10 worker nodes.
 * Fixed cost: 
-  * VLANs
-  * Public Portable Subnet
-  * Dedicated Hardware Firewall for VLAN
+  * VLANs - public and private
+  * Public Portable Subnet 
+  * Dedicated Hardware Firewall for public VLAN
   * File storage for container cluster
 * Variable cost:
-  * Worker nodes (3-10)
+  * Worker nodes (2-10)
 * Optional:
   * Object storage
   * File storage
