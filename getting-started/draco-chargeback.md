@@ -61,6 +61,14 @@ The firewall is required for each Public VLAN used by a container cluster.
 
 
 ### Object Storage
+Object storage is optional to a container cluster and based on need of research customer apps / services use of object storage.
+
+
+|  | Standard | Vault      | Cold Vault  | Flex     |
+|------------:| ----------:|------------:|---------:|
+| Cost / hr:  | $0.34      | $0.54       | $1.34    |
+| Cost / day: | $8.04      | $12.87      | $32.18   |          
+| Cost / mon: | $244.68    | $391.48     | $978.70  |
 
 
 ### File Storage 
