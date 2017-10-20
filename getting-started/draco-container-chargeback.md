@@ -9,7 +9,12 @@ There are two fundamental approaches for allocation of resource and chargeback:
 
 
 ## Chargeback for a shared container cluster
-work in progress
+The chargeback for research customer that use the preferred shared container cluster service is implemented at the namespace resource quota RAM alloction.
+
+Namespace resource quota:
+* Cost / RAM GB = $12.07 / mon
+
+The RIS DevOps standard namespace has a 2 GB RAM resource quota for the namespace.  Research customers can request change in resource quota values and will be charged accordingly.
 
 
 ## Chargeback for a dedicated container cluster
